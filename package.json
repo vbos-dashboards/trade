@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "load-data": "node scripts/loadData.js",
-    "predeploy": "npm run build",
+    "process-data": "node scripts/processData.js",
+    "predeploy": "npm run process-data && npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
