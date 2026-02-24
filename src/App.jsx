@@ -11,6 +11,7 @@ import Imports from './pages/Imports';
 import TradePartners from './pages/TradePartners';
 import TradeAnalytics from './pages/TradeAnalytics';
 import Methodology from './pages/Methodology';
+import Admin from './pages/Admin';
 
 function App() {
   const [data, setData] = useState(null);
@@ -92,6 +93,7 @@ function App() {
               />
             } />
             <Route path="/methodology" element={<Methodology />} />
+            <Route path="/admin" element={<Admin />} />
           </Routes>
         </div>
         <footer className="footer mt-5 py-3 bg-dark text-white">

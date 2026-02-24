@@ -62,6 +62,14 @@ function Navigation() {
                         >
                             Methodology
                         </Nav.Link>
+                        <Nav.Link
+                            as={Link}
+                            to="/admin"
+                            active={location.pathname === '/admin'}
+                            className="text-warning"
+                        >
+                            🔧 Admin
+                        </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
